@@ -54,7 +54,10 @@ This completes the Azure Files Domain Join with Azure ADDS
 ####Step 2####
 Now RDP into your Utility (or Admin) VM, Open the PowerShell ISE. Open the PowerShell code that was saved in Step#1. Run the Code.
 This code should mount the file share. Open your File Explorer
-![image](https://user-images.githubusercontent.com/15897803/126933383-eb810cc1-3508-4ec7-96aa-e3dd7250f143.png)
+
+<img width="217" alt="Screen Shot 2021-07-25 at 8 07 47 PM" src="https://user-images.githubusercontent.com/15897803/126933437-e3627539-79d2-4024-9579-e89e8ee54b73.png">
+
+
 
 
 
