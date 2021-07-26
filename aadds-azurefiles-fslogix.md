@@ -20,4 +20,8 @@ Click on "Not Configured" link
 
 <img width="1097" alt="Screen Shot 2021-07-25 at 4 06 32 PM" src="https://user-images.githubusercontent.com/15897803/126932665-a21e4067-4d21-4004-906c-929f0bf27aea.png">
 
+Click on Setup under Azure ADDS box
+
+Move the toggle button
+![image](https://user-images.githubusercontent.com/15897803/126932833-b9d2ff3f-33a4-4acc-be9d-0dbaa70f9d40.png)
 
