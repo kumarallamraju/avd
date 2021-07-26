@@ -58,6 +58,8 @@ if ($connectTestResult.TcpTestSucceeded) {
 }
 #####################################################################################################################
 
+SMB requires port 445. If this is not allowed, you may want to create an Azure Private Link.
+
 This completes the Azure Files Domain Join with Azure ADDS
 
 
