@@ -33,7 +33,16 @@ Save the changes.
 Go back to your Azure file share. In my case I named it as “avdfileshare”. Click on 3 dots on the right side and Connect
 
 Copy & save the PowerShell code in your Utility (or Admin) VM. We’ll need this code to mount the file share.
-![image](https://user-images.githubusercontent.com/15897803/126932946-7d00d774-e914-42dc-8792-4b3a1a7b1ba5.png)
+
+Go back to your file share. In my case it’s named as “avdfileshare”. Click on 3 dots on the right side and Connect
+Copy & save the PowerShell code in your Utility (or Admin) VM. We’ll need this code to mount the file share.
+
+
+![image](https://user-images.githubusercontent.com/15897803/126933025-48525f01-1406-4139-9361-712e7853a1a8.png)
+
+
+
+
 
 
 
