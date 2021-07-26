@@ -102,6 +102,17 @@ Now we’ll setup FSLogix via GPOs
 
 ![image](https://user-images.githubusercontent.com/15897803/126933962-66441351-c46b-42cf-b0cb-e05cfc8f51cc.png)
 
+Size in MBs – 30000
+VHD location -  \\{storage-account-name}.file.core.windows.net\avdfileshare\whprofiles 
+
+Create an OU named "AVDPooled"
+Right click on AVDPooled OU and Link an Existing GPO
+Select FSLogixProfiles from the list
+
+
+gpupdate /force
+
+
 
 
 
