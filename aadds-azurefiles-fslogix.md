@@ -1,7 +1,7 @@
 This blog assumes you have already configured Azure Active Directory Domain Services. 
 In order to use FSLogix with multi-session desktops we need to first domain join the Azure Files to Azure ADDS
 
-####Step 1
+####Step 1####
 
 Go to Azure Portal https://portal.azure.com
 Create an ADLS Gen2 Storage Account with LRS tier.
@@ -50,6 +50,11 @@ if ($connectTestResult.TcpTestSucceeded) {
 
 This completes the Azure Files Domain Join with Azure ADDS
 
+
+####Step 2####
+Now RDP into your Utility (or Admin) VM, Open the PowerShell ISE. Open the PowerShell code that was saved in Step#1. Run the Code.
+This code should mount the file share. Open your File Explorer
+![image](https://user-images.githubusercontent.com/15897803/126933383-eb810cc1-3508-4ec7-96aa-e3dd7250f143.png)
 
 
 
