@@ -58,6 +58,15 @@ This code should mount the file share. Open your File Explorer
 <img width="217" alt="Screen Shot 2021-07-25 at 8 07 47 PM" src="https://user-images.githubusercontent.com/15897803/126933437-e3627539-79d2-4024-9579-e89e8ee54b73.png">
 
 
+Double Click on the mounted file share.
+Create a folder. In my case I have created a folder named “whprofiles”
+Right click on the folder >> Properties
+Click on Security Tab >> Advanced
+Click on Add
+
+![image](https://user-images.githubusercontent.com/15897803/126933533-dc8b57af-c588-4d1e-a95d-36d9b5f0e0bd.png)
+
+
 
 
 
