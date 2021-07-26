@@ -69,6 +69,28 @@ Click on Add
 
 ![image](https://user-images.githubusercontent.com/15897803/126933533-dc8b57af-c588-4d1e-a95d-36d9b5f0e0bd.png)
 
+Save the Changes.
+
+This completes the NTFS permissions on the mounted file share.
+
+
+####Step 3####
+
+Go back to Azure Portal and Select your storage account 
+
+Data Storage >> File shares >> Click on your file share (avdfileshare)
+
+Click on Access Control (IAM)
+
+Add >> Add role assignment 
+
+Select the role named “Storage File Data SMS Share Contributor” and add the right group. 
+
+![image](https://user-images.githubusercontent.com/15897803/126933823-5ba1bae2-534c-4d8b-b696-61250887745a.png)
+
+    
+
+
 
 
 
