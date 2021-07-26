@@ -1,4 +1,4 @@
-# Configuring FSLogix with Multi-session desktops and domain joining the Azure Files with Azure AD DS
+## How to Configure FSLogix with Azure Files with Azure Acitve Directory Domain Services for Multi-session Desktops
 
 This blog assumes you have already configured Azure Active Directory Domain Services. 
 In order to use FSLogix with multi-session desktops we need to first domain join the Azure Files to Azure ADDS
