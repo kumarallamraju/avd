@@ -38,13 +38,21 @@ Copy & save the PowerShell code in your Utility (or Admin) VM. We’ll need this
 
 #####################################################################################################################
 $connectTestResult = Test-NetConnection -ComputerName {storage-account-name}.file.core.windows.net -Port 445
+
 if ($connectTestResult.TcpTestSucceeded) {
+
     # Save the password so the drive will persist on reboot
+    
     cmd.exe /C "cmdkey /add:`"{storage-account-name}.file.core.windows.net`" /user:`"localhost\{storage-account-name}`" /pass:`{access key}"
+    
     # Mount the drive
+    
     New-PSDrive -Name Z -PSProvider FileSystem -Root "\\{storage-account-name}.file.core.windows.net\avdfileshare" -Persist
+    
 } else {
+
     Write-Error -Message "Unable to reach the Azure storage account via port 445. Check to make sure your organization or ISP is not blocking port 445, or use Azure P2S VPN, Azure S2S VPN, or Express Route to tunnel SMB traffic over a different port."
+    
 }
 #####################################################################################################################
 
@@ -103,12 +111,14 @@ Now we’ll setup FSLogix via GPOs
 ![image](https://user-images.githubusercontent.com/15897803/126933962-66441351-c46b-42cf-b0cb-e05cfc8f51cc.png)
 
 Size in MBs – 30000
+
 VHD location -  \\{storage-account-name}.file.core.windows.net\avdfileshare\whprofiles 
 
 Create an OU named "AVDPooled"
-Right click on AVDPooled OU and Link an Existing GPO
-Select FSLogixProfiles from the list
 
+Right click on AVDPooled OU and Link an Existing GPO
+
+Select FSLogixProfiles from the list
 
 gpupdate /force
 
