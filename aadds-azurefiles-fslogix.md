@@ -1,6 +1,8 @@
 This blog assumes you have already configured Azure Active Directory Domain Services. 
 In order to use FSLogix with multi-session desktops we need to first domain join the Azure Files to Azure ADDS
 
+####Step 1
+
 Go to Azure Portal https://portal.azure.com
 Create an ADLS Gen2 Storage Account with LRS tier.
 Once the storage account is created, go to Settings >> Configuration
@@ -34,11 +36,21 @@ Go back to your Azure file share. In my case I named it as “avdfileshare”. C
 
 Copy & save the PowerShell code in your Utility (or Admin) VM. We’ll need this code to mount the file share.
 
-Go back to your file share. In my case it’s named as “avdfileshare”. Click on 3 dots on the right side and Connect
-Copy & save the PowerShell code in your Utility (or Admin) VM. We’ll need this code to mount the file share.
+#####################################################################################################################
+$connectTestResult = Test-NetConnection -ComputerName {storage-account-name}.file.core.windows.net -Port 445
+if ($connectTestResult.TcpTestSucceeded) {
+    # Save the password so the drive will persist on reboot
+    cmd.exe /C "cmdkey /add:`"{storage-account-name}.file.core.windows.net`" /user:`"localhost\{storage-account-name}`" /pass:`{access key}"
+    # Mount the drive
+    New-PSDrive -Name Z -PSProvider FileSystem -Root "\\{storage-account-name}.file.core.windows.net\avdfileshare" -Persist
+} else {
+    Write-Error -Message "Unable to reach the Azure storage account via port 445. Check to make sure your organization or ISP is not blocking port 445, or use Azure P2S VPN, Azure S2S VPN, or Express Route to tunnel SMB traffic over a different port."
+}
+#####################################################################################################################
+
+This completes the Azure Files Domain Join with Azure ADDS
 
 
-![image](https://user-images.githubusercontent.com/15897803/126933025-48525f01-1406-4139-9361-712e7853a1a8.png)
 
 
 
