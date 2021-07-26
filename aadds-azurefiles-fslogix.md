@@ -23,5 +23,8 @@ Click on "Not Configured" link
 Click on Setup under Azure ADDS box
 
 Move the toggle button
+
 ![image](https://user-images.githubusercontent.com/15897803/126932833-b9d2ff3f-33a4-4acc-be9d-0dbaa70f9d40.png)
 
+
+![image](https://user-images.githubusercontent.com/15897803/126932893-3dd0824f-e0ed-4595-802c-5750a7354ff5.png)
