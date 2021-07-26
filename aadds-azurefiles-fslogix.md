@@ -16,4 +16,8 @@ Initially you'll see Active Directory Not Configured
 
 <img width="676" alt="Screen Shot 2021-07-25 at 4 05 13 PM" src="https://user-images.githubusercontent.com/15897803/126932585-74a1dbb7-5b0a-42d5-96ce-b14773a1938d.png">
 
+Click on "Not Configured" link
+
+<img width="1097" alt="Screen Shot 2021-07-25 at 4 06 32 PM" src="https://user-images.githubusercontent.com/15897803/126932665-a21e4067-4d21-4004-906c-929f0bf27aea.png">
+
 
