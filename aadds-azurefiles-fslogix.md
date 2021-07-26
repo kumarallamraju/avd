@@ -123,6 +123,15 @@ Select FSLogixProfiles from the list
 gpupdate /force
 
 
+Now create a Pooled Desktops (multi-session) host pool, Application Group and Workspace.
+Add the users to the Desktop Application Group.
+
+<img width="640" alt="Screen Shot 2021-07-25 at 9 48 55 PM" src="https://user-images.githubusercontent.com/15897803/126934615-0de9fabc-c831-40c6-a54b-89d30d5d50ad.png">
+
+<img width="637" alt="Screen Shot 2021-07-25 at 9 49 06 PM" src="https://user-images.githubusercontent.com/15897803/126934628-f5334ae9-40d2-48ed-949b-b1b4dd9694e1.png">
+
+
+<img width="718" alt="Screen Shot 2021-07-25 at 9 49 22 PM" src="https://user-images.githubusercontent.com/15897803/126934634-a12fd689-fc7d-474d-8db7-31f7bace9c0f.png">
 
 
 
