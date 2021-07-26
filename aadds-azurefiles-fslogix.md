@@ -88,7 +88,22 @@ Select the role named “Storage File Data SMS Share Contributor” and add the 
 
 ![image](https://user-images.githubusercontent.com/15897803/126933823-5ba1bae2-534c-4d8b-b696-61250887745a.png)
 
-    
+This steps completes assigning the RBAC roles to the Azure File Share.
+
+Now we’ll setup FSLogix via GPOs
+
+-	Download FSLogix from https://aka.ms/fslogix/download
+-	Extract and copy the fslogix.admx file to C:\Windows\PolicyDefinitions and copy the fslogix.adml file to C:\Windows\PolicyDefinitions\en-US folder.
+-	Open your GPO editor in your Admin VM
+-	Create a GPO named “FSLogixProfiles” (this could be any name of your choice)
+-	Right click on FSLogixProfiles >> Edit
+-	Computer Configuration >> Policies >> Administrative Templates >> FSLogix
+-	Profile Containers and configure the following settings
+
+![image](https://user-images.githubusercontent.com/15897803/126933962-66441351-c46b-42cf-b0cb-e05cfc8f51cc.png)
+
+
+
 
 
 
