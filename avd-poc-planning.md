@@ -40,8 +40,15 @@ In an effort to fast track your AVD POC pls have the following prerequisites rea
 
 16. Create a folder inside the mounted file share.
 17. Right click on the folder >> Security >> Advanced. Click on Add. Select your users/groups that will be using multi-session desktops
+18. Type: Allow, Applies to: This folder only, Basic Permissions: Modify (don't give full control). Save the changes
 
 <img width="373" alt="Screen Shot 2021-08-04 at 9 17 39 AM" src="https://user-images.githubusercontent.com/15897803/128217171-e6ab0f6b-91bb-4c43-97bc-efac8f5aa359.png">
+
+19. Go back to Azure Portal >> Select your storage account >> file share >> click on Access Control (IAM)
+
+20. Add >> Add role assingment >> Assign Storage File Data SMB Share Contributor privileges to the same users/groups you did in step #17. Alternatively you can give Storage File Data SMB Share Elevated Contributor privileges to an admin user.
+
+<img width="425" alt="Screen Shot 2021-08-04 at 9 23 10 AM" src="https://user-images.githubusercontent.com/15897803/128217887-03c229a7-f081-4d11-a39d-e89ade66ac13.png">
 
 
 ## Steps to create a Golden Image for AVD
