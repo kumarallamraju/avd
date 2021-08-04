@@ -1,5 +1,5 @@
 
-## Azure Virtual Desktop (AVD) POC Planning
+## Azure Virtual Desktop (AVD) POC Planning Document
 
 In an effort to fast track your AVD POC pls have the following prerequisites ready.
 
@@ -17,9 +17,14 @@ In an effort to fast track your AVD POC pls have the following prerequisites rea
 
 8. If you're planning to keep these VMs in a separate OU, pls create the OU beforehand and get the full OU path
 9. Have a separate VM (e.g. adminVM) to perform admin activities or back door entry to your session hosts. Pls make sure this VM is also domain joined.
-10. For multi-session desktops, we need to domain join the Azure Files or Azure NetApp Files. Pls refer to this document https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable 
 
-10. Download the AzFilesHybrid module https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable#download-azfileshybrid-module on to your admin VM created in Step #8 
+### Personal Desktops
+
+### Multi-session Desktops
+
+11. For multi-session desktops, we need to domain join the Azure Files or Azure NetApp Files. Pls create an ADLS Gen2 storage account and refer to this document https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable 
+
+10. Download the AzFilesHybrid module https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable#download-azfileshybrid-module on to your admin VM created in Step #9
 
 
 11. Install the Az module on your admin VM. https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-6.3.0
@@ -29,3 +34,9 @@ In an effort to fast track your AVD POC pls have the following prerequisites rea
 14. Execute the script line by line which will help you to easily troubleshoot.
 
 15. If all goes well, you'll see a mounted file share in your admin VM
+
+
+
+## Steps to create a Golden Image for AVD
+
+One of our MVPs put together a nice blog. I'm referencing his blog here https://www.robinhobo.com/windows-virtual-desktop-wvd-image-management-how-to-manage-and-deploy-custom-images-including-versioning-with-the-azure-shared-image-gallery-sig/
