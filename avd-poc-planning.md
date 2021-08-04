@@ -54,3 +54,8 @@ In an effort to fast track your AVD POC pls have the following prerequisites rea
 ## Steps to create a Golden Image for AVD
 
 One of our MVPs put together a nice blog. I'm referencing his blog here https://www.robinhobo.com/windows-virtual-desktop-wvd-image-management-how-to-manage-and-deploy-custom-images-including-versioning-with-the-azure-shared-image-gallery-sig/
+
+
+## Accessing AVD Workspaces
+- Web: https://rdweb.wvd.microsoft.com/arm/webclient/index.html
+- Windows Desktop Client: Download from https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/windowsdesktop and install on your Client machines
