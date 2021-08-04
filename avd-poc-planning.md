@@ -35,6 +35,7 @@ In an effort to fast track your AVD POC pls have the following prerequisites rea
 
 15. If all goes well, you'll see a mounted file share in your admin VM
 
+![Screen Shot 2021-08-04 at 9 13 14 AM](https://user-images.githubusercontent.com/15897803/128216477-5d3a33f5-7948-4204-8496-49fe88829a7e.png)
 
 
 ## Steps to create a Golden Image for AVD
