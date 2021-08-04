@@ -16,9 +16,11 @@ In an effort to fast track your AVD POC pls have the following prerequisites rea
 6. By default AVD session hosts (VMs) are domain joined. Have your domain join credentials ready in this format. domainjoin@contoso.com / {password}
 
 8. If you're planning to keep these VMs in a separate OU, pls create the OU beforehand and get the full OU path
-9. Have a separate VM (e.g. adminVM) to perform admin activities or back door entry to your session hosts. Pls make sure this VM is also domain joined.
+9. Provision a separate VM (e.g. adminVM) to perform admin activities or back door entry to your session hosts. Pls make sure this VM is also domain joined.
 
 ### Personal Desktops
+
+10. Provisioning Personal Desktops is pretty easy. Just use an image from Azure Marketplace "Windows 10 Enterprise 20H2", provide Active Directory credentials and  input the no. of VMs. You're good to go.
 
 ### Multi-session Desktops
 
