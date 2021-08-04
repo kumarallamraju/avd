@@ -1,7 +1,7 @@
 
 ## Azure Virtual Desktop (AVD) POC Planning Document
 
-In an effort to fast track your AVD POC pls have the following prerequisites ready.
+In an effort to fast track  AVD POC pls have the following prerequisites ready.
 
 1. It's recommended to create a new Azure subscription to provision Azure Virtual Desktop (AVD) resources.
 2. Have owner or contributor privileges on the subscription.
