@@ -51,7 +51,7 @@ In an effort to fast track your AVD POC pls have the following prerequisites rea
 <img width="425" alt="Screen Shot 2021-08-04 at 9 23 10 AM" src="https://user-images.githubusercontent.com/15897803/128217887-03c229a7-f081-4d11-a39d-e89ade66ac13.png">
 
 
-## Steps to create a Golden Image for AVD
+### Steps to create a Golden Image for AVD
 
 One of our MVPs put together a nice blog. I'm referencing his blog here https://www.robinhobo.com/windows-virtual-desktop-wvd-image-management-how-to-manage-and-deploy-custom-images-including-versioning-with-the-azure-shared-image-gallery-sig/
 
