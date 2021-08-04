@@ -61,3 +61,8 @@ One of our MVPs put together a nice blog. I'm referencing his blog here https://
 ## Accessing AVD Workspaces
 - Web: https://rdweb.wvd.microsoft.com/arm/webclient/index.html
 - Windows Desktop Client: Download from https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/windowsdesktop and install on your Client machines
+- Input the feed discovery URL: https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery (replace .com with .us for GovCloud)
+- Enter your credentials and you should see your subscribed AVD workspaces.
+
+![Screen Shot 2021-08-04 at 11 01 24 AM](https://user-images.githubusercontent.com/15897803/128231418-173dbc1f-acc8-4dad-b0bc-23d5c6b3341e.png)
+
