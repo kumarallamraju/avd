@@ -24,7 +24,7 @@ In an effort to fast track your AVD POC pls have the following prerequisites rea
 
 ### Multi-session Desktops
 
-11. For multi-session desktops, we need to domain join the Azure Files or Azure NetApp Files. Pls create an ADLS Gen2 storage account and refer to this document https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable 
+11. For multi-session desktops, we need to domain join the Azure Files or Azure NetApp Files. Pls create an ADLS Gen2 storage account and also refer this document https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable 
 
 10. Download the AzFilesHybrid module https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable#download-azfileshybrid-module on to your admin VM created in Step #9
 
