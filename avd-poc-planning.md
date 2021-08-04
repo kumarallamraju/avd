@@ -38,6 +38,12 @@ In an effort to fast track your AVD POC pls have the following prerequisites rea
 ![Screen Shot 2021-08-04 at 9 13 14 AM](https://user-images.githubusercontent.com/15897803/128216477-5d3a33f5-7948-4204-8496-49fe88829a7e.png)
 
 
+16. Create a folder inside the mounted file share.
+17. Right click on the folder >> Security >> Advanced. Click on Add. Select your users/groups that will be using multi-session desktops
+
+<img width="373" alt="Screen Shot 2021-08-04 at 9 17 39 AM" src="https://user-images.githubusercontent.com/15897803/128217171-e6ab0f6b-91bb-4c43-97bc-efac8f5aa359.png">
+
+
 ## Steps to create a Golden Image for AVD
 
 One of our MVPs put together a nice blog. I'm referencing his blog here https://www.robinhobo.com/windows-virtual-desktop-wvd-image-management-how-to-manage-and-deploy-custom-images-including-versioning-with-the-azure-shared-image-gallery-sig/
