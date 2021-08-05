@@ -20,7 +20,7 @@ In an effort to fast track  AVD POC pls have the following prerequisites ready.
 
 ### Personal Desktops
 
-10. Provisioning Personal Desktops is pretty easy. Just use an image from Azure Marketplace "Windows 10 Enterprise 20H2", provide Active Directory credentials and  input the no. of VMs. You're good to go.
+Provisioning Personal Desktops is pretty easy. Just use an image from Azure Marketplace "Windows 10 Enterprise 20H2", provide Active Directory credentials and  input the no. of VMs. You're good to go.
 
 ### Multi-session Desktops
 
