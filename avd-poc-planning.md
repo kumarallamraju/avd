@@ -26,7 +26,7 @@ In an effort to fast track  AVD POC pls have the following prerequisites ready.
 
 11. For multi-session desktops, we need an Azure Storage Account and Standard/Premium File Share. to domain join the Azure Files or Azure NetApp Files. This document outlines the steps to domain join the Azure Storage Account https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable 
 
-10. Download the AzFilesHybrid module https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable#download-azfileshybrid-module on to your admin VM created in Step #9
+10. Download the AzFilesHybrid module https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable#download-azfileshybrid-module on to your admin VM created in Step #8
 
 11. Install the Az module on your admin VM. https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-6.3.0
 
