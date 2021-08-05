@@ -24,30 +24,30 @@ In an effort to fast track  AVD POC pls have the following prerequisites ready.
 
 ### Multi-session Desktops
 
-11. For multi-session desktops, we need an Azure Storage Account and Standard/Premium File Share. to domain join the Azure Files or Azure NetApp Files. This document outlines the steps to domain join the Azure Storage Account https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable 
+1. For multi-session desktops, we need an Azure Storage Account and Standard/Premium File Share. to domain join the Azure Files or Azure NetApp Files. This document outlines the steps to domain join the Azure Storage Account https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable 
 
-10. Download the AzFilesHybrid module https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable#download-azfileshybrid-module on to your admin VM created in Step #8
+2. Download the AzFilesHybrid module https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable#download-azfileshybrid-module on to your admin VM created in Step #8
 
-11. Install the Az module on your admin VM. https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-6.3.0
+3. Install the Az module on your admin VM. https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-6.3.0
 
-12. Download this file https://github.com/kumarallamraju/avd/blob/main/azurefiles-smb.ps1 and input your subscription, resource group and storage account details.
+4. Download this file https://github.com/kumarallamraju/avd/blob/main/azurefiles-smb.ps1 and input your subscription, resource group and storage account details.
 
-14. Execute the script line by line which will help you to easily troubleshoot.
+5. Execute the script line by line which will help you to easily troubleshoot.
 
-15. If all goes well, you'll see a mounted file share in your admin VM
+6. If all goes well, you'll see a mounted file share in your admin VM
 
 ![Screen Shot 2021-08-04 at 9 13 14 AM](https://user-images.githubusercontent.com/15897803/128216477-5d3a33f5-7948-4204-8496-49fe88829a7e.png)
 
 
-16. Create a folder inside the mounted file share.
-17. Right click on the folder >> Security >> Advanced. Click on Add. Select your users/groups that will be using multi-session desktops
-18. Type: Allow, Applies to: This folder only, Basic Permissions: Modify (don't give full control). Save the changes
+7. Create a folder inside the mounted file share.
+8. Right click on the folder >> Security >> Advanced. Click on Add. Select your users/groups that will be using multi-session desktops
+9. Type: Allow, Applies to: This folder only, Basic Permissions: Modify (don't give full control). Save the changes
 
 <img width="373" alt="Screen Shot 2021-08-04 at 9 17 39 AM" src="https://user-images.githubusercontent.com/15897803/128217171-e6ab0f6b-91bb-4c43-97bc-efac8f5aa359.png">
 
-19. Go back to Azure Portal >> Select your storage account >> file share >> click on Access Control (IAM)
+10. Go back to Azure Portal >> Select your storage account >> file share >> click on Access Control (IAM)
 
-20. Add >> Add role assingment >> Assign Storage File Data SMB Share Contributor privileges to the same users/groups you did in step #17. Alternatively you can give Storage File Data SMB Share Elevated Contributor privileges to an admin user.
+11. Add >> Add role assingment >> Assign Storage File Data SMB Share Contributor privileges to the same users/groups you did in step #17. Alternatively you can give Storage File Data SMB Share Elevated Contributor privileges to an admin user.
 
 <img width="425" alt="Screen Shot 2021-08-04 at 9 23 10 AM" src="https://user-images.githubusercontent.com/15897803/128217887-03c229a7-f081-4d11-a39d-e89ade66ac13.png">
 
