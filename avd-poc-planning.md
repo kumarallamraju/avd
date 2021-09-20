@@ -11,6 +11,9 @@ In an effort to fast track  AVD POC pls have the following prerequisites ready.
 
 4. Create a new Resource Group, Virtual Network (VNet) and have a line of sight into your on-prem Domain Controllers. This can be configured under your VNet's DNS Servers section. If you already have a line of sight, just peer the new VNet with an existing VNet.
 
+![onprem-dc](https://user-images.githubusercontent.com/15897803/134075992-6d951d2e-9fdf-4a3f-b4ca-89148a784347.png)
+
+
 5. Ensure on-prem identities are sync'ing to Azure Active Directory via AD Connect
 
 6. By default AVD session hosts (VMs) are domain joined. Have your domain join credentials ready in this format. domainjoin@contoso.com / {password}
