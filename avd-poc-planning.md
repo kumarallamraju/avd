@@ -34,7 +34,7 @@ Provisioning Personal Desktops is pretty easy. Just use an image from Azure Mark
 
 1. For multi-session desktops, we need an Azure Storage Account and Standard/Premium File Share. to domain join the Azure Files or Azure NetApp Files. This document outlines the steps to domain join the Azure Storage Account https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable 
 
-2. Download the AzFilesHybrid module https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable#download-azfileshybrid-module on to your admin VM created in Step #8
+2. Download the AzFilesHybrid module https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable#download-azfileshybrid-module on to your admin VM created in Step #8; Launch PowerShell ISE as Administrator
 
 3. Install the Az module on your admin VM. https://docs.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-6.3.0
 
