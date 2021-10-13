@@ -4,7 +4,7 @@
 In an effort to fast track  AVD POC pls have the following prerequisites ready.
 
 1. It's recommended to create a new Azure subscription to provision Azure Virtual Desktop (AVD) resources.
-2. Have owner or contributor privileges on the subscription.
+2. Have owner or contributor privileges on your Azure subscription.
 3. Register the DesktopVirtualization Resource Provider (if not already registered). Go to your Subscription >> Settings >> Resource providers and search for "desktop"
 
 <img width="1095" alt="Screen Shot 2021-08-04 at 8 44 27 AM" src="https://user-images.githubusercontent.com/15897803/128211842-228f1af7-9992-4671-a7f9-c2bf8191b703.png">
@@ -32,7 +32,7 @@ Provisioning Personal Desktops is pretty easy. Just use an image from Azure Mark
 
 ### Multi-session Desktops
 
-1. For multi-session desktops, we need an Azure Storage Account and Standard/Premium File Share. to domain join the Azure Files or Azure NetApp Files. This document outlines the steps to domain join the Azure Storage Account https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable 
+1. For multi-session desktops, we need an Azure Storage Account and Standard/Premium File Share to domain join the Azure Files or Azure NetApp Files. This document outlines the steps to domain join the Azure Storage Account https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable 
 
 2. Download the AzFilesHybrid module https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable#download-azfileshybrid-module on to your admin VM created in Step #8; Launch PowerShell ISE as Administrator
 
