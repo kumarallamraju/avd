@@ -69,7 +69,7 @@ $StorageAccountKey = "xxxx"
 #$suffix = ".file.core.windows.net"
 
 ####
-#  Copy the below code from Azure Portal > Storage Account > File Shares > Connect
+#  Copy the below code (line 76 to 84) from Azure Portal > Storage Account > File Shares > Connect
 #  Run the code below to test the connection and mount the share
 ####
 
