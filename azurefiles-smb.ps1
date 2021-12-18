@@ -83,6 +83,13 @@ if ($connectTestResult.TcpTestSucceeded) {
     Write-Error -Message "Unable to reach the Azure storage account via port 445. Check to make sure your organization or ISP is not blocking port 445, or use Azure P2S VPN, Azure S2S VPN, or Express Route to tunnel SMB traffic over a different port."
 }
 
+  # Set recommended NTFS permissions on the file share
+    Start-Process icacls -ArgumentList "K: /grant $($Group):(M)" -Wait -NoNewWindow -PassThru -ErrorAction 'Stop'
+    Start-Process icacls -ArgumentList 'K: /grant "Creator Owner":(OI)(CI)(IO)(M)' -Wait -NoNewWindow -PassThru -ErrorAction 'Stop'
+    Start-Process icacls -ArgumentList 'K: /remove "Authenticated Users"' -Wait -NoNewWindow -PassThru -ErrorAction 'Stop'
+    Start-Process icacls -ArgumentList 'K: /remove "Builtin\Users"' -Wait -NoNewWindow -PassThru -ErrorAction 'Stop'
+    Write-Error -Message "Setting the NTFS permissions on the Azure file share succeeded" -Type 'INFO' 
+
 
 #Unmount the mapped drive
     Remove-PSDrive -Name 'K' -PSProvider 'FileSystem' -Force -ErrorAction 'Stop'
