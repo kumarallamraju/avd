@@ -1,11 +1,10 @@
  ## Join the Storage Account for SMB Auth Microsoft Source:
 ## https://docs.microsoft.com/en-us/azure/storage/files/storage-files-identity-ad-ds-enable
 
-# Download AzFilesHybrid module from the below github page
+# Download AzFilesHybrid module from the below github page; extract it to a location of your choice. 
+# In this example I extracted it to C:\Users\kumara\Downloads\AzFilesHybrid folder
 # https://github.com/Azure-Samples/azure-files-samples/releases
 
- # Download AzFilesHybrid module from the below github page
-# https://github.com/Azure-Samples/azure-files-samples/releases
 
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 Set-PSRepository -Name “PSGallery” -InstallationPolicy Trusted
