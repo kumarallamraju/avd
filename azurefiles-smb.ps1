@@ -91,7 +91,7 @@ if ($connectTestResult.TcpTestSucceeded) {
 
 
 #Unmount the mapped drive
-    Remove-PSDrive -Name 'K' -PSProvider 'FileSystem' -Force -ErrorAction 'Stop'
-    Write-Error -Message "Unmounting the Azure file share succeeded" -Type 'INFO' 
+    #Remove-PSDrive -Name 'K' -PSProvider 'FileSystem' -Force -ErrorAction 'Stop'
+    #Write-Error -Message "Unmounting the Azure file share succeeded" -Type 'INFO' 
 
 
