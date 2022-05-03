@@ -21,7 +21,7 @@ In an effort to fast track  AVD POC pls have the following prerequisites ready.
 7. If you're planning to keep these VMs in a separate OU, pls create the OU beforehand and get the full OU path
 8. Provision a separate VM (e.g. adminVM) to perform admin activities or back door entry to your session hosts. Please make sure this VM is also domain joined.
 
-9. In order to successfully provision Azure Virtual Desktop, pls ensure the following URLs are unblocked in your Network Security Groups or 3rd party firewalls(e.g. Palo Alto)
+9. In order to successfully provision Azure Virtual Desktop, please ensure the following URLs are unblocked in your Network Security Groups or 3rd party firewalls(e.g. Palo Alto)
 
 - Azure Commercial and GovCloud: https://docs.microsoft.com/en-us/azure/virtual-desktop/safe-url-list#virtual-machines
 
