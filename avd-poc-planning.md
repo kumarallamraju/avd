@@ -48,6 +48,7 @@ In an effort to fast track  AVD POC please have the following prerequisites read
 9. Next: Workspace
 10. Create a new workspace (e.g. personalWS)
 11. Enable Monitoring and select the right LAW that was created earlier.
+
 ![Screen Shot 2022-09-16 at 8 14 10 AM](https://user-images.githubusercontent.com/15897803/190672584-76b6a241-53f0-4f20-bf77-d26b3f4e3e14.png)
 
 12. Add tags (you can always add them later)
