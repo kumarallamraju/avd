@@ -27,14 +27,33 @@ In an effort to fast track  AVD POC please have the following prerequisites read
 
 ### Create a Log Analytics Workspace
 
-Create a new Log Analytics Workspace (LAW) before creating Personal/Multi-session hostpools. This is needed to enable monitoring.
-Go to Azure Portal. Search for Log Analytics Workspace
+1. Head over to Azure Portal https://portal.azure.com
+2. Create a new Log Analytics Workspace (LAW) before creating Personal/Multi-session hostpools. This is needed to enable monitoring.
 
 ![Screen Shot 2022-09-16 at 8 07 58 AM](https://user-images.githubusercontent.com/15897803/190671349-63227538-6bb4-4e46-9ed6-f1410ab22412.png)
 
 ### Personal Desktops
 
-Provisioning Personal Desktops is pretty easy. Just use an image from Azure Marketplace "Windows 10 Enterprise 20H2", provide Active Directory credentials and  input the no. of VMs. You're good to go.
+1. Head over to Azure Portal https://portal.azure.com
+2. Search for "Azure Virtual Desktop"
+3. Manage >> Host pools >> + Create
+4. Select your target subscription, resource group, region
+5. Preferred app group type: Desktop
+6. Host pool type: Personal
+7. Next
+8. We'll add VMs later
+9. Next: Workspace
+10. Create a new workspace (e.g. personalWS)
+![Screen Shot 2022-09-16 at 8 11 49 AM](https://user-images.githubusercontent.com/15897803/190672473-22383ce9-0940-4ae7-a93d-c5469a7677b4.png)
+
+
+11. Enable Monitoring and select the right LAW that was created earlier.
+![Screen Shot 2022-09-16 at 8 14 10 AM](https://user-images.githubusercontent.com/15897803/190672584-76b6a241-53f0-4f20-bf77-d26b3f4e3e14.png)
+
+12. Add tags (you can always add them later)
+13. Review the summary screen. Go back if you need to make changes
+14. Create a Host pool
+
 
 ### Multi-session Desktops
 
