@@ -25,6 +25,12 @@ In an effort to fast track  AVD POC please have the following prerequisites read
 
 - Azure Commercial and GovCloud: https://docs.microsoft.com/en-us/azure/virtual-desktop/safe-url-list#virtual-machines
 
+### Create a Log Analytics Workspace
+
+Create a new Log Analytics Workspace (LAW) before creating Personal/Multi-session hostpools. This is needed to enable monitoring.
+Go to Azure Portal. Search for Log Analytics Workspace
+
+![Screen Shot 2022-09-16 at 8 07 58 AM](https://user-images.githubusercontent.com/15897803/190671349-63227538-6bb4-4e46-9ed6-f1410ab22412.png)
 
 ### Personal Desktops
 
