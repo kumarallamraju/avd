@@ -66,7 +66,16 @@ In an effort to fast track  AVD POC please have the following prerequisites read
 
 ![Screen Shot 2022-09-16 at 8 23 36 AM](https://user-images.githubusercontent.com/15897803/190674568-90225cc6-9f13-4fca-bb81-24118e6084ce.png)
 
+20. Go back to the host pool again.
+21. Manage >> Application Groups
+22. select your application group (ends with -DAG)
+23. Manage >> Assignments
+24. + Add ; Add AD/AAD users/groups
 
+AVD Web Client: https://aka.ms/connectAVD
+Download the Windows Desktop Client: https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/windowsdesktop and install it on your laptop/desktop
+
+You need AVD feed discovery URL for the Windows Desktop Client: https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery (Azure Commercial Cloud)
 
 
 ### Multi-session Desktops
