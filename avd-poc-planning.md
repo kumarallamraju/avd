@@ -72,7 +72,7 @@ In an effort to fast track  AVD POC please have the following prerequisites read
 23. Manage >> Assignments
 24. +Add ; Add AD/AAD users/groups
 
-25. Since this is an Azure Active Directory (AAD) based identity, you have to add "Virtual Machine User" RBAC role on the host pool resource group. If you want to login via AVD webclient, please add targetisaadjoined:i:1 property in the host pool's RDP properties advanced section. This info is documented at https://docs.microsoft.com/en-us/azure/virtual-desktop/deploy-azure-ad-joined-vm
+25. Since this is an Azure Active Directory (AAD) based identity, you have to add "Virtual Machine User" RBAC role on the host pool's resource group. If you want to login via AVD webclient, please add "targetisaadjoined:i:1" property in the host pool's RDP properties advanced section. This info is documented at https://docs.microsoft.com/en-us/azure/virtual-desktop/deploy-azure-ad-joined-vm
 
 AVD Web Client: https://aka.ms/connectAVD
 
