@@ -73,6 +73,7 @@ In an effort to fast track  AVD POC please have the following prerequisites read
 24. +Add ; Add AD/AAD users/groups
 
 AVD Web Client: https://aka.ms/connectAVD
+
 Download the Windows Desktop Client: https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/windowsdesktop and install it on your laptop/desktop
 
 You need AVD feed discovery URL for the Windows Desktop Client: https://rdweb.wvd.microsoft.com/api/arm/feeddiscovery (Azure Commercial Cloud)
