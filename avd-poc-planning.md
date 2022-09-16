@@ -53,6 +53,18 @@ In an effort to fast track  AVD POC please have the following prerequisites read
 12. Add tags (you can always add them later)
 13. Review the summary screen. Go back if you need to make changes
 14. Create a Host pool
+15. Go back to the host pool
+16. Click on Total Machines
+17. + Add
+18. Add virtual machines to a host pool; Some properties are inherited
+19. Next
+![Screen Shot 2022-09-16 at 8 22 41 AM](https://user-images.githubusercontent.com/15897803/190674512-b9dbb605-adbc-4bc2-99f7-d1760e50e2a8.png)
+
+![Screen Shot 2022-09-16 at 8 23 27 AM](https://user-images.githubusercontent.com/15897803/190674537-ebe0f981-533b-4bd8-a0ac-c92f3249d204.png)
+
+![Screen Shot 2022-09-16 at 8 23 36 AM](https://user-images.githubusercontent.com/15897803/190674568-90225cc6-9f13-4fca-bb81-24118e6084ce.png)
+
+
 
 
 ### Multi-session Desktops
