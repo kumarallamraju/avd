@@ -40,6 +40,7 @@ In an effort to fast track  AVD POC please have the following prerequisites read
 4. Select your target subscription, resource group, region
 5. Preferred app group type: Desktop
 6. Host pool type: Personal
+
 ![Screen Shot 2022-09-16 at 8 11 49 AM](https://user-images.githubusercontent.com/15897803/190672473-22383ce9-0940-4ae7-a93d-c5469a7677b4.png)
 
 7. Next
