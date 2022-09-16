@@ -56,7 +56,7 @@ In an effort to fast track  AVD POC please have the following prerequisites read
 14. Create a Host pool
 15. Go back to the host pool
 16. Click on Total Machines
-17. + Add
+17. +Add
 18. Add virtual machines to a host pool; Some properties are inherited
 19. Next
 
