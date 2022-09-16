@@ -58,6 +58,7 @@ In an effort to fast track  AVD POC please have the following prerequisites read
 17. + Add
 18. Add virtual machines to a host pool; Some properties are inherited
 19. Next
+
 ![Screen Shot 2022-09-16 at 8 22 41 AM](https://user-images.githubusercontent.com/15897803/190674512-b9dbb605-adbc-4bc2-99f7-d1760e50e2a8.png)
 
 ![Screen Shot 2022-09-16 at 8 23 27 AM](https://user-images.githubusercontent.com/15897803/190674537-ebe0f981-533b-4bd8-a0ac-c92f3249d204.png)
