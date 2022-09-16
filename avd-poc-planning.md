@@ -70,7 +70,7 @@ In an effort to fast track  AVD POC please have the following prerequisites read
 21. Manage >> Application Groups
 22. select your application group (ends with -DAG)
 23. Manage >> Assignments
-24. + Add ; Add AD/AAD users/groups
+24. +Add ; Add AD/AAD users/groups
 
 AVD Web Client: https://aka.ms/connectAVD
 Download the Windows Desktop Client: https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/windowsdesktop and install it on your laptop/desktop
